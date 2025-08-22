@@ -1,6 +1,6 @@
 window.APP_CONFIG = {
   // 初期表示の中心座標（鹿嶋市付近）とズーム設定
-  map: {
+'AIzaSyCExrqcE4MPmievjTlV8wFJrVtKcbKWqX8',
     center: [35.966, 140.628],
     zoom: 15
   },
