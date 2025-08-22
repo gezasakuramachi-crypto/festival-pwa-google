@@ -5,9 +5,10 @@ window.APP_CONFIG = {
     zoom: 15
   },
   traccar: {
-    baseUrl: "https://traccar-railway.fly.dev:5055",
+    baseUrl: "https://traccar-railway.fly.dev/",
     deviceId: 1,
-    apiKey: "RjBEAiAVXri0u0j9x6cPqP9TXAbZDprtfJSlwudh4dE-Q82aQQIgHI_E4p-tAr9KJpNVmbcClYmVfh0Rr-VHphOP95TaMZt7InUiOjEsImUiOiIyMDI1LTA4LTI4VDE1OjAwOjAwLjAwMCswMDowMCJ9"
+    apiKey: ""
+    publicToken: "RzBFAiAaeMvmv32ZrmskwLBY7hx0jHxCezE-NGOh_K2-QFuHgQIhAOY_es0TTwL-GX4pbel4G6wxKQcYjJd1EgtRzGKhSlQ7eyJ1Ijo2LCJlIjoiMjAyNS0wOC0yN1QxNTowMDowMC4wMDArMDA6MDAifQ"
   },
   pollMs: 8000,
   festivalWindow: {
