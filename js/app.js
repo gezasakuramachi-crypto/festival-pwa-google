@@ -4,8 +4,24 @@
  */
 (function () {
   const C = window.APP_CONFIG;
-  let map;
-  let marker;
+  window.APP_CONFIG = {
+  map: {
+    center: [35.966, 140.628],
+    zoom: 15
+  },
+  googleMapsApiKey: 'AIzaSyCExrqcE4MPmievjTlV8wFJrVtKcbKWqX8',
+  traccar: {
+    baseUrl: 'https://traccar-railway.fly.dev:5055',
+    deviceId: 1,
+    apiKey: '',
+    publicToken: 'RzBFAiAaeMvmv32ZrmskwLBY7hx0jHxCezE-NGOh_K2-QFuHgQIhAOY_es0TTwL-GX4pbel4G6wxKQcYjJd1EgtRzGKhSlQ7eyJ1Ijo2LCJlIjoiMjAyNS0wOC0yN1QxNTowMDowMC4wMDArMDA6MDAifQ'
+  },
+  pollMs: 5000,
+  festivalWindow: {
+    start: '2025-08-31T17:00:00+09:00',
+    end:   '2025-09-02T22:00:00+09:00'
+  }
+};
 
   // Google Maps 初期化
   function initMap() {
