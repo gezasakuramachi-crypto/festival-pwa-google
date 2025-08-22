@@ -1,25 +1,23 @@
 window.APP_CONFIG = {
   // 初期表示の中心座標（鹿嶋市付近）とズーム設定
   map: {
-    center: [35.9659, 140.6297], // 緯度・経度（必ず修正してください）
+    center: [35.966, 140.628],
     zoom: 15
   },
-  
-  // Google Maps APIキー（Google Cloud Consoleで取得したものをここに設定）
+
+  // Google Maps APIキー
   googleMapsApiKey: 'AIzaSyCExrqcE4MPmievjTlV8wFJrVtKcbKWqX8',
 
-  // Traccar読取り用設定
+  // Traccar 読み取り用設定
   traccar: {
-    baseUrl: 'https://traccar-railway.fly.dev:5055', // 例: https://traccar.example.com
-    deviceId: 1,                             // 公開する“山車デバイス”のID
-    apiKey: '',                               // 読み取り専用APIキー
-    // Traccar共有リンクのトークンを使用する場合はここに記入してください
-    publicToken: 'RzBFAiAaeMvmv32ZrmskwLBY7hx0jHxCezE-NGOh_K2-QFuHgQIhAOY_es0TTwL-GX4pbel4G6wxKQcYjJd1EgtRzGKhSlQ7eyJ1Ijo2LCJlIjoiMjAyNS0wOC0yN1QxNTowMDowMC4wMDArMDA6MDAifQ
-'
+    baseUrl: 'https://traccar-railway.fly.dev:5055',
+    deviceId: 1,
+    apiKey: '',
+    publicToken: 'RzBFAiAaeMvmv32ZrmskwLBY7hx9jHczeC-NGOh_k2-QFuHgQHIA0y_es0TTWL-GX4Pble4G6wxKQcYjJdiEgtRzGKhSlQ7eyJ1Ijo2LCJlIjoiMjAyNS0wOC0yN1QxNTowMDowMC4wMDArMDA6MDAifQ'
   },
 
   // 位置更新のポーリング間隔（ミリ秒）
-  pollMs: 8000,
+  pollMs: 5000,
 
   // 祭り期間（表示などに使用）
   festivalWindow: {
