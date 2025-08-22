@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "roadId": "R-1" },
+      "geometry": { "type": "LineString", "coordinates": [ [140.629711, 35.966722], [140.628787, 35.968204] ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "roadId": "R-2" },
+      "geometry": { "type": "LineString", "coordinates": [ [140.629711, 35.966722], [140.631420, 35.965807] ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "roadId": "R-3" },
+      "geometry": { "type": "LineString", "coordinates": [ [140.628787, 35.968204], [140.631420, 35.965807] ] }
+    }
+  ]
+}
