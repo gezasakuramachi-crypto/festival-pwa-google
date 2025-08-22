@@ -3,18 +3,41 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "roadId": "R-1" },
-      "geometry": { "type": "LineString", "coordinates": [ [140.629711, 35.966722], [140.628787, 35.968204] ] }
+      "properties": { "roadId": "R-CORE", "name": "Core Festival Route" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [140.629711, 35.966722],
+          [140.6304, 35.9660],
+          [140.631420, 35.965807],
+          [140.6320, 35.9662],
+          [140.628787, 35.968204]
+        ]
+      }
     },
     {
       "type": "Feature",
-      "properties": { "roadId": "R-2" },
-      "geometry": { "type": "LineString", "coordinates": [ [140.629711, 35.966722], [140.631420, 35.965807] ] }
+      "properties": { "roadId": "R-WEST", "name": "West Extension" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [140.6295, 35.9655],
+          [140.6270, 35.9655],
+          [140.626132, 35.964775]
+        ]
+      }
     },
     {
       "type": "Feature",
-      "properties": { "roadId": "R-3" },
-      "geometry": { "type": "LineString", "coordinates": [ [140.628787, 35.968204], [140.631420, 35.965807] ] }
+      "properties": { "roadId": "R-EAST", "name": "East Extension" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [140.6315, 35.9658],
+          [140.6330, 35.9660],
+          [140.6340, 35.9665]
+        ]
+      }
     }
   ]
 }
